@@ -1,0 +1,24 @@
+api: 1.16.5
+api-version: 1.16
+name: RevoAuth
+main: com.revo.auth.Plugin
+version: 0.1.6
+description: Revo authorization plugin.
+author: Revo
+commands:
+  rauth:
+    description: Information about plugin.
+  login:
+    aliases: [l]
+    description: Use to login on server.
+  register:
+    aliases: [r]
+    description: Use to register on server.
+  email:
+    description: Use to manage your email.
+  recovery:
+    description: Use to recovery your account with email.
+  passwordchange:
+    description: Use to change your password.
+  autologin:
+    description: Use to change auto login boolean.
